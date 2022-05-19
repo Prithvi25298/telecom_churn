@@ -1,24 +1,24 @@
-# Predict click through rate ctr for a website
-> The problem of interest is the prediction of the apply rate. Imagine a user visiting a website, and performing a job search. From the set of displayed results, user clicks on certain ones that she is interested in, and after checking job descriptions, she further clicks on apply button therein to land in to an application page. The apply rate is defined as the fraction of applies (after visiting job description pages), and the goal is to predict this metric using the dataset described in the following section.
+# Telecom Churn Case Study Hackathon
+> In the telecom industry, customers are able to choose from multiple service providers and actively switch from one operator to another. In this highly competitive market, the telecommunications industry experiences an average of 15-25% annual churn rate. Given the fact that it costs 5-10 times more to acquire a new customer than to retain an existing one, customer retention has now become even more important than customer acquisition.
+
+For many incumbent operators, retaining high profitable customers is the number one business
+goal. To reduce customer churn, telecom companies need to predict which customers are at high risk of churn. In this project, you will analyze customer-level data of a leading telecom firm, build predictive models to identify customers at high risk of churn.
+
+In this competition, your goal is to build a machine learning model that is able to predict churning customers based on the features provided for their usage.
 
 
 ## Table of Contents
-* The problem of interest is the prediction of the apply rate.
+* Predict churning customers for a Telecom company based on temporal behaviour
 * Python (#technologies-used)
 * I create two models PCA + Logistic Regression and Decision Tree In this Case Decision Tree has a 91% accurate on both Test and Train Data(#conclusions)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
-## General Information
--  The problem of interest is the prediction of the apply rate. Imagine a user visiting a website, and performing a job search.
-- the apply rate is defined as the fraction of applies (after visiting job description pages), and the goal is to predict this metric using the dataset described in the following section.
-- Websites Data
-
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Accuracy Score of Decision Tree is 91%
-- 6 columns are best fit to model According to PCA
+- Accuracy Score of Random Forest is 91%
+- 55 columns are best fit to model According to PCA
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
@@ -31,7 +31,7 @@
 
 ## Acknowledgements
 Give credit here.
-- This Data is Provided by Kaggle(https://www.kaggle.com/datasets/animeshgoyal9/predict-click-through-rate-ctr-for-a-website)
+- This Data is Provided by Kaggle(https://www.kaggle.com/competitions/telecom-churn-case-study-hackathon-c35)
 
 
 ## Contact
